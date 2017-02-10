@@ -45,6 +45,7 @@ const componentName = (component) => {
 	  return (
     <div className='container'>
       <Drawer
+        className="drawer"
         open={true}
         containerStyle={{backgroundColor:'rgb(24, 209, 185)'}}
       >
@@ -54,11 +55,9 @@ const componentName = (component) => {
           select_menuItem={this.props.select_menuItem}
         />
       </Drawer>
-      <div className='Component-container'>
         { 
          componentName(this.props.menuItemReducer.component)
         }
-      </div>
     </div>
 	  )
 	}

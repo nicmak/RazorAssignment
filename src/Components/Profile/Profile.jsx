@@ -2,11 +2,9 @@ import React, {Component} from 'react'
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card'
 import IconButton from 'material-ui/IconButton';
 import RaisedButton from 'material-ui/RaisedButton';
-
 import ActionHome from 'material-ui/svg-icons/action/home';
 import ActionFavorite from 'material-ui/svg-icons/action/favorite';
 import ActionFeedback from 'material-ui/svg-icons/action/feedback';
-
 import personJSON from './person.json'
 import { connect } from 'react-redux'
 import {fullWhite} from 'material-ui/styles/colors';
