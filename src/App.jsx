@@ -3,11 +3,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import SideBar from './Components/SideBar/SideBar'
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
-
-
-
-import './App.css';
-
 export default class App extends Component {
   render() {
     return (
@@ -20,3 +15,4 @@ export default class App extends Component {
   }
 }
 
+//MuiThemeProvider is used as a theme template for Material-UI

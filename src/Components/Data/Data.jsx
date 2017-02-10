@@ -4,6 +4,8 @@ import LineChart from 'react-chartjs'
 import './Styles/Data.css'
 
 
+//A react-chartjs library is used here. 
+
 export default class Data extends Component {
 	render() {
 		const data = {
@@ -16,22 +18,9 @@ export default class Data extends Component {
     }
     const data2 = {
 		    datasets: [{
-		        data: [
-		            11,
-		            16,
-		            7,
-		            3,
-		            14
-		        ],
+		        data: [11,16,7,3,14],
 		    }],
-
-		    labels: [
-		        "Red",
-		        "Green",
-		        "Yellow",
-		        "Grey",
-		        "Blue"
-		    ]
+		    labels: ["Red","Green","Yellow","Grey","Blue"]
     }
 		return (
 			<div className='chart-container'>

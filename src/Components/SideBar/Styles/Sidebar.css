@@ -8,13 +8,9 @@
 	width:100%;
 	height:100%;
 }
-
 .drawer {
 	order:1;
 }
-
-
-
 .BarTitle {
 	height:80px;
 	width:100%;
@@ -24,9 +20,3 @@
 	font-family:'Poppins',sans-serif;
 }
 
-.Component-container {
-
-background: rgba(176, 232, 35, 0.32);
-width:100%;
-margin-left: 257px
-}

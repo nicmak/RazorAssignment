@@ -10,12 +10,16 @@ import { connect } from 'react-redux'
 import {fullWhite} from 'material-ui/styles/colors';
 import './Styles/Profile.css'
 
+//To understand mapStateToProps & mapDispatchToProps please refer
+// to SideBar/SideBar.jsx
 const mapStateToProps = (state) => {
-
   return {
     personInfoReducer:state.personInfoReducer
   }
 }
+
+//In mapDispatchToProps, we can make AJAX calls via multiple dispatch calls,
+//but because I made a JSON file person.json, there is no need as its imported in already
 
 const mapDispatchToProps = (dispatch) => {
   return {
@@ -29,13 +33,21 @@ const mapDispatchToProps = (dispatch) => {
     }    
   }
 }
+
 class Profile extends Component {
+//Before the component mounts, we want to fetch the Profile Data from person.json
+//therefore we have to componentWillMount()
 	componentWillMount() {
 		this.props.getPersonInfo()
 	}
+	//Below we have to use terinary operator because the initial state of 
+	//personInfoReducer is null...once the prop contains the data, it will be looped
+	//through to return multiple user cards as shown below. If no user data exists,
+	//nothing will be returned.  
 	render() {
 		return (
 		<div className="people">
+
     
     {
 		this.props.personInfoReducer ?
@@ -76,14 +88,11 @@ class Profile extends Component {
 
 		  </CardActions>
 		</Card>
-
-		
 			)
 		})
 		:null
 	}
 		</div>
-
 		)
 	}
 }
