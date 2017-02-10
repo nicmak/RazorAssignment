@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.profile-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.person {
+	margin-top: 20px;
+	width:500px;
+}
+image {
+	height:228px;
+}
+.image img {
+width:227px;
+}
+
+.person1 {
+	width: 227px;
+	border-radius:2px;
+	background: rgba(30, 123, 44, 0.6);
+}
+
+.info-container {
+	background-color: white;
+}

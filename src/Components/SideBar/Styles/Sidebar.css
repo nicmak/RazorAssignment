@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.container {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.Drawer {
+	order:1;
+}
+
+.container Profile {
+	order:2;
+}
+
+.container Data {
+  order:2;
+}
+
+.BarTitle {
+	height:80px;
+	width:100%;
+	background:rgba(30, 123, 44, 0.6);
+	padding-left: 34px;
+	font-size: 67px;
+	font-family:'Poppins',sans-serif;
+}
+
+.Component-container {
+
+background: rgba(176, 232, 35, 0.32);
+width:100%;
+margin-left: 257px
+}

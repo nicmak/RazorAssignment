@@ -1,0 +1,24 @@
+{
+	"People": [
+  
+  {
+  	"name":"Nicholas Mak",
+  	"overlay":"Hello World",
+  	"text":"I like Green Eggs & Ham",
+  	"image":"https://scontent.fxds1-1.fna.fbcdn.net/v/t1.0-9/13226889_10154851823403916_7183107301577068369_n.jpg?oh=07440e5b02ab4e8fe176284a598275cb&oe=58FE4149"
+  },
+  {
+  	"name":"Mickey Mouse",
+  	"overlay":"Disney World is awesome",
+  	"text":"I was created by Walt Disney!!!!",
+  	"image":"https://upload.wikimedia.org/wikipedia/en/d/d4/Mickey_Mouse.png"
+  },
+  {
+  	"name":"Nick Again ",
+  	"overlay":"Quack Quack Quack",
+  	"text":"I got nothin to say....",
+    "image":"https://scontent.fxds1-1.fna.fbcdn.net/v/t1.0-9/13226889_10154851823403916_7183107301577068369_n.jpg?oh=07440e5b02ab4e8fe176284a598275cb&oe=58FE4149"
+  }
+
+	]
+}
